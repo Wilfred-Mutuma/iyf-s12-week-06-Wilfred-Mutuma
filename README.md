@@ -5,6 +5,12 @@
 **Course:** IYF Weekend Academy – Season 12  
 **Week:** 6
 
+## Live Demo
+
+Try the deployed Weather Dashboard here:
+
+[Open Weather Dashboard](https://wilfred-mutuma.github.io/iyf-s12-week-06-Wilfred-Mutuma/)
+
 ## Project Overview
 
 This repository contains my Week 6 JavaScript exercises and Weather Dashboard mini-project.
