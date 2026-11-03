@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard | Week 6</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Weather Dashboard</h1>
+            <p>Get current weather information for any city.</p>
+        </header>
+
+        <section class="search-section">
+            <form id="weatherForm">
+                <input
+                    type="text"
+                    id="cityInput"
+                    placeholder="Enter city name..."
+                    required
+                >
+                <button type="submit" id="searchBtn">Search Weather</button>
+            </form>
+        </section>
+
+        <p id="loading" class="hidden">Loading weather information...</p>
+
+        <p id="errorMessage" class="error-message hidden"></p>
+
+        <section id="weatherDisplay" class="weather-display hidden">
+
+            <h2 id="cityName"></h2>
+
+            <div class="weather-main">
+                <img id="weatherIcon" src="" alt="Weather icon">
+
+                <div>
+                    <h3 id="temperature"></h3>
+                    <p id="weatherDescription"></p>
+                </div>
+            </div>
+
+            <div class="weather-details">
+
+                <div class="detail-card">
+                    <h4>Feels Like</h4>
+                    <p id="feelsLike"></p>
+                </div>
+
+                <div class="detail-card">
+                    <h4>Humidity</h4>
+                    <p id="humidity"></p>
+                </div>
+
+                <div class="detail-card">
+                    <h4>Wind Speed</h4>
+                    <p id="windSpeed"></p>
+                </div>
+
+                <div class="detail-card">
+                    <h4>Pressure</h4>
+                    <p id="pressure"></p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="recent-section">
+            <h2>Recent Searches</h2>
+            <ul id="recentSearches"></ul>
+        </section>
+
+    </div>
+
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
