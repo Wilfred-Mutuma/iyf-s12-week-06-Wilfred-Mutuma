@@ -123,3 +123,16 @@ The `lesson-12/` folder contains Fetch API exercises covering:
 ## Learning Outcome
 
 This project demonstrates my understanding of asynchronous JavaScript and how to retrieve, process and display external API data in a web application.
+
+## Testing
+
+The Weather Dashboard was tested to verify that its main features and error handling work correctly.
+
+| Test | Expected result | Result |
+|---|---|---|
+| Search for Nairobi | Display current weather information | Passed |
+| Search for an invalid city | Display a city-not-found error | Passed |
+| Test without an internet connection | Display a network error message | Passed |
+| Submit an empty city field | Display a validation message | Passed |
+
+The Lesson 11 exercises and all five daily challenges were also executed successfully using Node.js.
