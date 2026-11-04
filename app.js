@@ -152,11 +152,17 @@ async function getWeather(city) {
 
     } catch (error) {
 
-        // Display error message
+    // Display a clear message when there is no internet
+    if (!navigator.onLine || error instanceof TypeError) {
+        errorMessage.textContent =
+            "No internet connection. Please check your network and try again.";
+    } else {
         errorMessage.textContent = error.message;
-        errorMessage.classList.remove("hidden");
+    }
 
-    } finally {
+    errorMessage.classList.remove("hidden");
+
+} finally {
 
         // Hide loading and enable button again
         loading.classList.add("hidden");
