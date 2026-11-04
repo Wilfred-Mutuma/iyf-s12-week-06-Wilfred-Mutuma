@@ -96,6 +96,30 @@ The Weather Dashboard uses the OpenWeatherMap API to retrieve current weather in
 
 **Important:** Never upload your real API key. The `.gitignore` file excludes `config.js`.
 
+## Daily Challenges
+
+The five daily challenges demonstrate the concepts covered during Week 6.
+
+| Day | Challenge | Concepts |
+|---|---|---|
+| Day 1 | Asynchronous JavaScript | setTimeout and execution order |
+| Day 2 | Student Information | Promises and resolve |
+| Day 3 | Weather Information | Async/await and try/catch |
+| Day 4 | Fetch Users | Fetch API and JSON |
+| Day 5 | Student Details | Promise.all() and parallel execution |
+
+All five daily challenge files were executed successfully using Node.js.
+
+## Lesson 12 Practice
+
+The `lesson-12/` folder contains Fetch API exercises covering:
+
+- Fetching one user.
+- Fetching multiple users.
+- Searching and filtering users.
+- Handling loading and error states.
+- Creating a user with a POST request.
+
 ## Learning Outcome
 
 This project demonstrates my understanding of asynchronous JavaScript and how to retrieve, process and display external API data in a web application.
